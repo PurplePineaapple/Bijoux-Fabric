@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bijoux",
+  "version": "${version}",
+
+  "name": "Bijoux Mod",
+  "description": "Bijoux is a mod that adds to and enhances the overall experience of mining by adding a variety of gems, metals, and materials.",
+  "authors": [
+    "PurplePineapple",
+    "purplepretzle"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/PurplePineaapple/Bijoux-Fabric"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/bijoux/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.purplepineapple.bijoux.Bijoux"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
