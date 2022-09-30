@@ -20,6 +20,7 @@ public class BijouxItems {
     // Polished Stones
     public static final Item AQUAMARINE = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
     public static final Item OPAL = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
+    public static final Item PEARL = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
     public static final Item ROSE_QUARTZ = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
     public static final Item RUBY = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
     public static final Item SAPPHIRE = new Item(new Item.Settings().group(BijouxTabs.MATERIALS));
@@ -51,6 +52,7 @@ public class BijouxItems {
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "raw_topaz"), RAW_TOPAZ);
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "aquamarine"), AQUAMARINE);
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "opal"), OPAL);
+        Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "pearl"), PEARL);
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "rose_quartz"), ROSE_QUARTZ);
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "ruby"), RUBY);
         Registry.register(Registry.ITEM, new Identifier(Bijoux.MOD_ID, "sapphire"), SAPPHIRE);
