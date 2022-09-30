@@ -1,5 +1,6 @@
 package me.purplepineapple.bijoux;
 
+import me.purplepineapple.bijoux.block.BijouxBlocks;
 import me.purplepineapple.bijoux.item.BijouxItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class Bijoux implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Bijoux is initializing");
 		BijouxItems.register();
+		BijouxBlocks.register();
 	}
 }

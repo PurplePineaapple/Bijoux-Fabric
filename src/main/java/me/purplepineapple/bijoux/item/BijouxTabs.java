@@ -1,6 +1,7 @@
 package me.purplepineapple.bijoux.item;
 
 import me.purplepineapple.bijoux.Bijoux;
+import me.purplepineapple.bijoux.block.BijouxBlocks;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
