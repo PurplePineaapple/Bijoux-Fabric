@@ -44,8 +44,8 @@
   "item.bijoux.sapphire": "Sapphire",
   "item.bijoux.topaz": "Topaz",
   "item.bijoux.tumbler_grit": "Tumbler Grit",
-  "itemGroup.blocks": "Bijoux Blocks",
-  "itemGroup.materials": "Bijoux Materials",
-  "itemGroup.tools_armor": "Bijoux Tools/Armor",
+  "itemGroup.bijoux.blocks": "Bijoux Blocks",
+  "itemGroup.bijoux.materials": "Bijoux Materials",
+  "itemGroup.bijoux.tools_armor": "Bijoux Tools/Armor",
   "pack.bijoux.pack_mcmeta": "Bijoux mod pack"
 }
